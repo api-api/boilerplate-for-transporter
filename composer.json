@@ -1,0 +1,46 @@
+{
+  "name": "api-api/transporter-dummy-name",
+  "description": "Transporter implementation for [...].",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "keywords": [
+    "api-api",
+    "transporter",
+    "transporter-dummy-name"
+  ],
+  "homepage": "http://awesome.ug",
+  "authors": [
+    {
+      "name": "Felix Arntz",
+      "email": "felix-arntz@leaves-and-love.net",
+      "homepage": "https://leaves-and-love.net",
+      "role": "Lead Developer"
+    },
+    {
+      "name": "Sven Wagener",
+      "email": "sven@awesome.ug",
+      "homepage": "http://awesome.ug",
+      "role": "Head of Development"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/api-api/transporter-dummy-name/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "psr-4": {
+      "APIAPI\\Transporter_Dummy_Name\\": "src/Transporter_Dummy_Name/"
+    },
+    "files": [
+      "src/transporter-dummy-name.php"
+    ]
+  },
+  "require": {
+    "api-api/core": "*"
+  },
+  "require-dev": {
+    "codeclimate/php-test-reporter": "dev-master"
+  }
+}
