@@ -2,7 +2,7 @@
 /**
  * Transporter loader.
  *
- * @package APIAPITransporterDummyName
+ * @package APIAPI\Transporter_Dummy_Name
  * @since 1.0.0
  */
 
